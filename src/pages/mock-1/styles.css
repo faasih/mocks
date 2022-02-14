@@ -1,0 +1,402 @@
+body {
+  background: black;
+
+  color: white;
+}
+
+.bg-image {
+  background: url("../../assets/mock-1/Group\ 896.png");
+  min-height: 1100px;
+}
+
+.slider {
+  margin-top: 10%;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-family: "Montserrat";
+}
+
+.slider p {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  padding: 2% 8%;
+  color: white;
+  font-family: "Montserrat";
+}
+
+.section-main-title {
+  font-size: 30px;
+  font-weight: 300;
+  font-family: "Montserrat";
+  color: #9f9f9f;
+}
+
+.section-heading-bold {
+  font-weight: 500;
+  font-size: 60px;
+  text-transform: capitalize;
+  font-family: "Montserrat";
+}
+
+.section-sub-heading {
+  font-weight: 300;
+  font-size: 20px;
+  color: #9f9f9f;
+  font-family: "Poppins";
+}
+
+.blue-img-thick {
+  background: url("../../assets/mock-1/Group 800@2x.png");
+  height: 400px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: 100%;
+}
+.left-icon {
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+}
+
+.takaful-online-btn {
+  font-size: 20px;
+  font-weight: 500;
+  width: 80%;
+  padding: 4% 0;
+  background: transparent linear-gradient(180deg, #0e76bc 0%, #1e90ff 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 0px 0px 10px #00000029;
+  border-radius: 14px;
+  opacity: 1;
+  color: white;
+}
+
+.takaful-online-btn:hover {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 4% 0;
+  background: transparent linear-gradient(180deg, #0e76bc 0%, #1e90ff 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 0px 0px 10px #00000029;
+  border-radius: 14px;
+  opacity: 1;
+}
+
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.form p {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Montserrat";
+  color: white;
+}
+
+.form input {
+  font-size: 18px;
+  font-weight: 400;
+  color: #f3f3f3;
+  padding: 2% 4%;
+  border-radius: 8px;
+  width: 80%;
+}
+
+.form input:focus-visible {
+  outline: none;
+}
+
+.circle {
+  height: 10px;
+  width: 10px;
+  background: rgb(129, 192, 252);
+  background: linear-gradient(
+    90deg,
+    rgba(129, 192, 252, 1) 20%,
+    rgba(11, 172, 255, 1) 54%
+  );
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 4%;
+}
+
+.services-card {
+  border-radius: 10px;
+  background-color: #393939;
+  width: 80%;
+}
+
+.services-card img {
+  width: 20%;
+}
+
+.service-heading span {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Poppins";
+  color: white;
+}
+
+.service-detail {
+  margin-top: 4%;
+}
+
+.service-detail span {
+  font-size: 16px;
+  padding: 2px 0px;
+  font-weight: 200;
+  font-family: "Montserrat";
+}
+
+.card-header {
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: none;
+}
+
+.hover-card {
+  border-radius: 10px;
+  background: rgb(85, 159, 230);
+  background: linear-gradient(
+    90deg,
+    rgba(85, 159, 230, 1) 20%,
+    rgba(11, 172, 255, 1) 54%
+  );
+  width: 80%;
+  display: none;
+}
+
+.hover-card img {
+  width: 20%;
+  -webkit-filter: invert(100%); /* Safari/Chrome */
+  filter: invert(100%);
+}
+
+.view-detail {
+  margin-top: 3%;
+  display: none;
+}
+
+.view-detail span {
+  font-size: 20px;
+  padding: 2px 0px;
+  font-weight: 400;
+  font-family: "Poppins";
+  border-bottom: 1px solid white;
+}
+
+.services-card:hover {
+  background: rgb(85, 159, 230);
+  background: linear-gradient(
+    90deg,
+    rgba(85, 159, 230, 1) 20%,
+    rgba(11, 172, 255, 1) 54%
+  );
+  cursor: pointer;
+  transition: ease 2s all;
+}
+
+.services-card:hover .service-detail span {
+  display: none;
+}
+
+.services-card:hover .view-detail {
+  display: block;
+}
+
+.accomplishment {
+  background: url("../../assets/mock-1/bb2.png");
+}
+
+.accomplishment-img img {
+  width: 50%;
+}
+
+.accomplishment-card {
+  background-color: transparent;
+  /* border: 1px solid white; */
+}
+
+.accomplishment-card-title {
+  padding: 2% 2%;
+}
+
+.accomplishment-card-title span {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  color: white;
+  text-align: center;
+  display: flex;
+}
+
+.accomplishment-card-view {
+  padding: 2% 6%;
+  margin-top: 10%;
+}
+
+.accomplishment-card-view span {
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 300;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+}
+
+@keyframes updowncontroller {
+  0% {
+    transform: rotate(-90deg) translate(-56px, 66px);
+  }
+  80%,
+  100% {
+    transform: rotate(-70deg) translate(10px, 66px);
+  }
+}
+
+.blog-card-main {
+  padding: 2% 4%;
+}
+
+.service-card-img img {
+  width: 100%;
+}
+
+.blog-card-main .card {
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.date-span {
+  font-weight: 300;
+  font-size: 20px;
+  color: #858585;
+}
+
+.blog-title {
+  padding: 4% 0%;
+}
+
+.blog-title span {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+.blog-view {
+  padding: 4% 0%;
+}
+
+.blog-view span {
+  font-size: 20px;
+  font-family: "Poppins";
+  font-weight: 400;
+  color: #9f9f9f;
+  border-bottom: 1px solid #999999;
+}
+
+.blog-card-main .card:hover .blog-view span {
+  color: #0b6ad8;
+  border-bottom: 1px solid #0b6ad8;
+}
+
+.text-height {
+  height: 140px;
+}
+
+.review-card {
+  padding: 0% 2%;
+}
+.review-card .card {
+  border-radius: 10px;
+  background: #292929 0% 0% no-repeat padding-box;
+  height: calc(100% - 15px);
+  margin-bottom: 15px;
+}
+
+.user-details img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.user-details span {
+  font-size: 20px;
+  margin-left: 6%;
+  margin-top: 10%;
+  font-weight: 500;
+  font-family: "Montserrat";
+  text-align: left;
+}
+
+.user-details .icons {
+  margin-top: 10%;
+}
+
+.user-review p {
+  font-size: 16px;
+  font-weight: 200;
+  font-weight: "Montserrat";
+  color: white;
+}
+
+.facebook-link {
+  border-radius: 50px;
+  justify-content: center;
+  display: flex;
+  margin: 0 8px;
+}
+
+/* All Icons */
+
+.fa-clock {
+  font-size: 20px;
+  font-weight: 200;
+  color: #858585;
+  margin-top: 5%;
+}
+.fa-user {
+  font-size: 20px;
+  font-weight: 200;
+  color: #858585;
+  margin-top: 6%;
+}
+.fa-comment-alt {
+  font-size: 20px;
+  font-weight: 200;
+  color: #858585;
+  margin-top: 12%;
+}
+.fa-heart {
+  font-size: 20px;
+  font-weight: 200;
+  color: #858585;
+  margin-top: 12%;
+}
+
+.fa-star {
+  color: #f7ce56;
+  font-size: 22px;
+}
+.fa-facebook {
+  font-size: 30px;
+  color: white;
+}
+
+.fa-twitter {
+  font-size: 30px;
+  color: white;
+}
+
+.fa-linkedin {
+  font-size: 30px;
+  color: white;
+}
